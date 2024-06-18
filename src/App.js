@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
+
   const [movies, setMovies] = useState([])
   const [pageCount, setpageCount] = useState(0)
   //get all movies by axios 
